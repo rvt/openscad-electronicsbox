@@ -54,5 +54,23 @@ Experimental: You can try your luck with implicitcad.
 Note: On a personal note, I found implicitcad more tricky to get good results.
 
 ```
-extopenscad -r 0.1 electronicsbox.escad -f stl -o electronicsbox.stl
+extopenscad -r 0.5 electronicsbox.escad -f stl -o electronicsbox.stl
 ```
+
+## ImplicitCAD vs OpenSCAD
+
+I did a quick comparison between ImplicitCAD and OpenSCAD to see how both system would render the electronics box.
+I need to check with the implicitCAD community to understand if I messed up or mis-undersootd the render settings
+as at this moment the output has some clear artifacts.
+
+### Render settings
+ImplicitCAD rendered with r = 0.5
+OpenSCAD rendered with $fn=36
+
+### STL File Sizes:
+OpenSCAD 1.1MB
+ImplicitCAD: 29.4MB
+
+
+![Electronics Box ImplicitCAD](images/implicitcad-r0.5.jpg "Electronics Box")
+![Electronics Box OpenSCAD](images/openscad-$fn=36.jpg "Electronics Box")

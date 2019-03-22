@@ -264,7 +264,7 @@ module box(length, width, depth, thickness, screwDiam, screwHeadDiam) {
         }
     }
 }
-
+$fn=36;
 union() {
   box(125, 80, 30, 2.4, 3, 6);
 

@@ -65,10 +65,12 @@ as at this moment the output has some clear artifacts.
 
 ### Render settings
 ImplicitCAD rendered with r = 0.5
+
 OpenSCAD rendered with $fn=36
 
 ### STL File Sizes:
 OpenSCAD 1.1MB
+
 ImplicitCAD: 29.4MB
 
 

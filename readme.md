@@ -60,19 +60,23 @@ extopenscad -r 0.5 electronicsbox.escad -f stl -o electronicsbox.stl
 ## ImplicitCAD vs OpenSCAD
 
 I did a quick comparison between ImplicitCAD and OpenSCAD to see how both system would render the electronics box.
-I need to check with the implicitCAD community to understand if I messed up or mis-undersootd the render settings
-as at this moment the output has some clear artifacts.
+I need to check with the implicitCAD community to understand if I messed up or mis-understood the render settings
+as at this moment the output of ImplicitCAD has some clear artifacts.
 
 ### Render settings
+
 ImplicitCAD rendered with r = 0.5
 
 OpenSCAD rendered with $fn=36
 
 ### STL File Sizes:
+
 OpenSCAD 1.1MB
 
 ImplicitCAD: 29.4MB
 
-
+ImplicitedCAD has a few artifacts:
 ![Electronics Box ImplicitCAD](images/implicitcad-r0.5.jpg "Electronics Box")
+
+OpenSCAD shows no sign of visible artifacts:
 ![Electronics Box OpenSCAD](images/openscad-$fn=36.jpg "Electronics Box")
